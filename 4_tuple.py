@@ -3,6 +3,7 @@
 #元组中的元素不允许修改和删除
 tup1 = ("hello","world")
 tup2 = (1,2,3)
+#tup1[1] = "hi"  非法操作
 print(tup1[1])
 print(tup2[2])
 
