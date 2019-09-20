@@ -6,6 +6,12 @@ tup2 = (1,2,3)
 print(tup1[1])
 print(tup2[2])
 
+#元组的长度与最大最小
+print(len(tup2))
+print(max(tup2))
+print(min(tup2))
+print(3 in tup2)
+
 #元组可以互相结合，也可以被整个删除
 tup3 = tup1 + tup2
 print(tup3)
